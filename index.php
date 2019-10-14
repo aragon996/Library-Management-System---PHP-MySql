@@ -117,6 +117,10 @@ echo "<script>alert('Invalid Details');</script>";
     <script src="assets/js/bootstrap.js"></script>
       <!-- CUSTOM SCRIPTS  -->
     <script src="assets/js/custom.js"></script>
+  <?php
+$cars=array("Volvo","BMW","Toyota");
+echo count($cars);
+?>
 
 </body>
 </html>
